@@ -1,0 +1,43 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #cccccc;
+  overflow-x: hidden;
+}
+
+h1 {
+  text-align: center;
+}
+
+.board {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+#content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+img {
+  overflow: hidden;
+    align-items: center;
+    transform: scale(1);
+    align-content: center;
+}
+
+.sub {
+  display: none;
+}
+
+.box:hover {
+  opacity:0.5;
+  outline-offset: -5px;
+  background-color: black;
+  outline: 5px solid white;
+}
